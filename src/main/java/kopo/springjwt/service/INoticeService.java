@@ -1,6 +1,6 @@
 package kopo.springjwt.service;
 
-import poly.jpamongoprj.dto.NoticeDTO;
+import kopo.springjwt.dto.NoticeDTO;
 
 import java.util.List;
 

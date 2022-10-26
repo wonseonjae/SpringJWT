@@ -6,13 +6,13 @@ import lombok.extern.slf4j.Slf4j;
 import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.security.core.userdetails.UsernameNotFoundException;
 import org.springframework.stereotype.Service;
-import poly.jpamongoprj.auth.AuthInfo;
-import poly.jpamongoprj.dto.UserInfoDTO;
-import poly.jpamongoprj.repository.UserInfoRepository;
-import poly.jpamongoprj.repository.entity.UserInfoEntity;
-import poly.jpamongoprj.service.IUserInfoSsService;
-import poly.jpamongoprj.util.CmmUtil;
-import poly.jpamongoprj.util.DateUtil;
+import kopo.springjwt.auth.AuthInfo;
+import kopo.springjwt.dto.UserInfoDTO;
+import kopo.springjwt.repository.UserInfoRepository;
+import kopo.springjwt.repository.entity.UserInfoEntity;
+import kopo.springjwt.service.IUserInfoSsService;
+import kopo.springjwt.util.CmmUtil;
+import kopo.springjwt.util.DateUtil;
 
 import java.util.Optional;
 

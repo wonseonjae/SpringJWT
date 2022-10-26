@@ -1,15 +1,18 @@
 package kopo.springjwt.controller;
 
 
+import kopo.springjwt.dto.NoticeDTO;
+import kopo.springjwt.service.INoticeService;
+import kopo.springjwt.util.CmmUtil;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.ModelMap;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
-import poly.jpamongoprj.dto.NoticeDTO;
-import poly.jpamongoprj.service.INoticeService;
-import poly.jpamongoprj.util.CmmUtil;
+import kopo.springjwt.dto.NoticeDTO;
+import kopo.springjwt.service.INoticeService;
+import kopo.springjwt.util.CmmUtil;
 
 import javax.annotation.Resource;
 import javax.servlet.http.HttpServletRequest;

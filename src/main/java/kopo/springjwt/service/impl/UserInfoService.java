@@ -3,12 +3,12 @@ package kopo.springjwt.service.impl;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Service;
-import poly.jpamongoprj.dto.UserInfoDTO;
-import poly.jpamongoprj.repository.UserInfoRepository;
-import poly.jpamongoprj.repository.entity.UserInfoEntity;
-import poly.jpamongoprj.service.IUserInfoService;
-import poly.jpamongoprj.util.CmmUtil;
-import poly.jpamongoprj.util.DateUtil;
+import kopo.springjwt.dto.UserInfoDTO;
+import kopo.springjwt.repository.UserInfoRepository;
+import kopo.springjwt.repository.entity.UserInfoEntity;
+import kopo.springjwt.service.IUserInfoService;
+import kopo.springjwt.util.CmmUtil;
+import kopo.springjwt.util.DateUtil;
 
 import java.util.Optional;
 

@@ -6,10 +6,10 @@ import org.springframework.ui.ModelMap;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
-import poly.jpamongoprj.dto.UserInfoDTO;
-import poly.jpamongoprj.service.IUserInfoService;
-import poly.jpamongoprj.util.CmmUtil;
-import poly.jpamongoprj.util.EncryptUtil;
+import kopo.springjwt.dto.UserInfoDTO;
+import kopo.springjwt.service.IUserInfoService;
+import kopo.springjwt.util.CmmUtil;
+import kopo.springjwt.util.EncryptUtil;
 
 import javax.annotation.Resource;
 import javax.servlet.http.HttpServletRequest;

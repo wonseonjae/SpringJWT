@@ -6,12 +6,12 @@ import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
-import poly.jpamongoprj.dto.NoticeDTO;
-import poly.jpamongoprj.repository.NoticeRepository;
-import poly.jpamongoprj.repository.entity.NoticeEntity;
-import poly.jpamongoprj.service.INoticeService;
-import poly.jpamongoprj.util.CmmUtil;
-import poly.jpamongoprj.util.DateUtil;
+import kopo.springjwt.dto.NoticeDTO;
+import kopo.springjwt.repository.NoticeRepository;
+import kopo.springjwt.repository.entity.NoticeEntity;
+import kopo.springjwt.service.INoticeService;
+import kopo.springjwt.util.CmmUtil;
+import kopo.springjwt.util.DateUtil;
 
 import java.util.List;
 

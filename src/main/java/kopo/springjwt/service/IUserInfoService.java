@@ -1,6 +1,6 @@
 package kopo.springjwt.service;
 
-import poly.jpamongoprj.dto.UserInfoDTO;
+import kopo.springjwt.dto.UserInfoDTO;
 
 public interface IUserInfoService {
 
